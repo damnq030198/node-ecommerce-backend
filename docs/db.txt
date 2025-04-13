@@ -1,0 +1,9 @@
+1, Nhược điểm của cách Connect cũ
+2, Cách kêt nối mới khuyên dùng
+3, Kiểm tra hệ thống có bao nhiêu connect 
+4, Thông báo khi hệ thống quá tải
+5, Có nên đóng kết nối trong mongodb hay không ? không cần
+6, Poolsize là gì? Vì sao nó lại quan trọng?
+    + Tạo sẵn connect trong db, khi có connect mới thì sẽ lấy trong Poolsize
+    + Không cần phải đóng mở thủ công nữa
+7, Nếu vượt quá max Poolsize thì nó sẽ cho vào trong queue 
